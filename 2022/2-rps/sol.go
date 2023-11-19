@@ -121,7 +121,7 @@ func (s *ScoreRules) Play2(a, b byte) int {
 }
 
 func Solve() {
-	println("\nLets go ......\n")
+	println("\nGame 2 : Lets go ......\n")
 
 	lines, err := utils.ReadLines("./2-rps/input.txt")
 	if err != nil {
@@ -137,6 +137,6 @@ func Solve() {
 		game2Score += game.Play2(line[0], line[2])
 	}
 
-	fmt.Println("Game 1:", game1Score)
-	fmt.Println("Game 2:", game2Score)
+	fmt.Println("Solution 1:", game1Score)
+	fmt.Println("Solution 2:", game2Score)
 }
