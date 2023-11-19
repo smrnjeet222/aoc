@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aoc2022/utils"
+	"github.com/smrnjeet222/aoc/2022/utils"
 )
 
 type ScoreRules struct {
@@ -123,7 +123,7 @@ func (s *ScoreRules) Play2(a, b byte) int {
 func Solve() {
 	println("\nGame 2 : Lets go ......\n")
 
-	lines, err := utils.ReadLines("./2-rps/input.txt")
+	lines, err := utils.ReadLines("./2022/2-rps/input.txt")
 	if err != nil {
 		log.Fatalf("readLines: %s", err)
 	}

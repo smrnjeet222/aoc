@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/aoc2022/utils"
+	"github.com/smrnjeet222/aoc/2022/utils"
 )
 
 // https://adventofcode.com/2022/day/1
@@ -32,10 +32,10 @@ func (s *Storage) Push(num int) {
 	}
 }
 
-func Sovle() {
+func Solve() {
 	println("\nGame 1 : Lets go ......\n")
 
-	lines, err := utils.ReadLines("./1-calorie-counting/input.txt")
+	lines, err := utils.ReadLines("./2022/1-calorie-counting/input.txt")
 	if err != nil {
 		log.Fatalf("readLines: %s", err)
 	}

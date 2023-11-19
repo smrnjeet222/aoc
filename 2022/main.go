@@ -1,11 +1,13 @@
 package main
 
 import (
-	calorieCounting "github.com/aoc2022/1-calorie-counting"
-	rps "github.com/aoc2022/2-rps"
+	calorieCounting "github.com/smrnjeet222/aoc/2022/1-calorie-counting"
+	rps "github.com/smrnjeet222/aoc/2022/2-rps"
+	rucksack "github.com/smrnjeet222/aoc/2022/3-rucksack"
 )
 
 func main() {
-	calorieCounting.Sovle()
+	calorieCounting.Solve()
 	rps.Solve()
+	rucksack.Solve()
 }
