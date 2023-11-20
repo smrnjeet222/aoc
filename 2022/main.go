@@ -5,6 +5,7 @@ import (
 	rps "github.com/smrnjeet222/aoc/2022/2-rps"
 	rucksack "github.com/smrnjeet222/aoc/2022/3-rucksack"
 	campCleanup "github.com/smrnjeet222/aoc/2022/4-camp-cleanup"
+	supplyStacks "github.com/smrnjeet222/aoc/2022/5-stacks"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	rps.Solve()
 	rucksack.Solve()
 	campCleanup.Solve()
+	supplyStacks.Solve()
 }
