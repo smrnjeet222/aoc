@@ -8,6 +8,7 @@ import (
 	supplyStacks "github.com/smrnjeet222/aoc/2022/5-stacks"
 	tuningtrouble "github.com/smrnjeet222/aoc/2022/6-tuning-trouble"
 	nospace "github.com/smrnjeet222/aoc/2022/7-no-space"
+	treetop "github.com/smrnjeet222/aoc/2022/8-treetop"
 )
 
 func main() {
@@ -18,4 +19,5 @@ func main() {
 	supplyStacks.Solve()
 	tuningtrouble.Solve()
 	nospace.Solve()
+	treetop.Solve()
 }
