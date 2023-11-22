@@ -9,6 +9,7 @@ import (
 	tuningtrouble "github.com/smrnjeet222/aoc/2022/6-tuning-trouble"
 	nospace "github.com/smrnjeet222/aoc/2022/7-no-space"
 	treetop "github.com/smrnjeet222/aoc/2022/8-treetop"
+	ropebridge "github.com/smrnjeet222/aoc/2022/9-rope-bridge"
 )
 
 func main() {
@@ -20,4 +21,5 @@ func main() {
 	tuningtrouble.Solve()
 	nospace.Solve()
 	treetop.Solve()
+	ropebridge.Solve()
 }
