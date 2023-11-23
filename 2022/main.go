@@ -3,6 +3,7 @@ package main
 import (
 	calorieCounting "github.com/smrnjeet222/aoc/2022/1-calorie-counting"
 	cathoderaytube "github.com/smrnjeet222/aoc/2022/10-cathode-ray-tube"
+	monkey "github.com/smrnjeet222/aoc/2022/11-monkey"
 	rps "github.com/smrnjeet222/aoc/2022/2-rps"
 	rucksack "github.com/smrnjeet222/aoc/2022/3-rucksack"
 	campCleanup "github.com/smrnjeet222/aoc/2022/4-camp-cleanup"
@@ -24,4 +25,5 @@ func main() {
 	treetop.Solve()
 	ropebridge.Solve()
 	cathoderaytube.Solve()
+	monkey.Solve()
 }
